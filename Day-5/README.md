@@ -57,9 +57,12 @@ This is 2nd day of react basics to adavance
 
 
 
-  # Reconcilation algorithm - It is also known as react fiber
-  # Virtual DOM - It is the representation of actual DOM- It is nothing but a react element i.e basically a js object
-  # Diff algorithm - It actually calculates the diff between virtual DOM or say two js object and update the UI 
+  # Reconcilation algorithm - 
+  - It is also known as react fiber
+  # Virtual DOM - 
+  - It is the representation of actual DOM- It is nothing but a react element i.e basically a js object
+  # Diff algorithm - 
+  - It actually calculates the diff between virtual DOM or say two js object and update the UI 
 
   # Why react is fast?
   - because it has effecient DOM manipulation- because it uses Diff algorithm to update the UI- as soon as my state variable changes using setStateVariable function , it re-render the UI by seeing the change in js object or Virtual DOM.
