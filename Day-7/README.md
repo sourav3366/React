@@ -72,3 +72,27 @@ This is 2nd day of react basics to adavance
   # Argrument vs Parameter
   # COORS
   # Shimmer UI
+
+  # useEffect hook
+  -  if no dependency array => then useEffect will be called on every component render
+  -  if dependency array is empty => then useEffect will be called only in the initial render(just once)
+  -  if dependency array is btnNameReact => then useEffect will be called everytime btnNameReact is updated.
+
+  # useState hook
+  - never use useState outside of the component as useState is used to create a local state variable inside the functional component
+  - never use useState inside a if else because it will create the inconsistency in our code.
+  - never use useState inside a for loop.
+
+  # React router dom
+  - npm i react-router-dom  -- This command will install react router
+        - Terms to be used and we should know in Routing:
+                -  useRouteError
+                -  createBrowserRouter
+                -  RouterProvider
+                -  Link instead of a tag - does not reload the page so very fast
+                -  children route
+                -  Outlet - basically creates a tunnel and push children component according to route
+        - There are two types of routing
+                - server side routing - it do a network call and brings the page which was done using a tag
+                - client side routing - all the pages came at once only (SPA)
+                - 1:11 min
