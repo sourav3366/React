@@ -85,14 +85,13 @@ This is 2nd day of react basics to adavance
 
   # React router dom
   - npm i react-router-dom  -- This command will install react router
-        - Terms to be used and we should know in Routing:
-                -  useRouteError
-                -  createBrowserRouter
-                -  RouterProvider
-                -  Link instead of a tag - does not reload the page so very fast
-                -  children route
-                -  Outlet - basically creates a tunnel and push children component according to route
-        - There are two types of routing
-                - server side routing - it do a network call and brings the page which was done using a tag
-                - client side routing - all the pages came at once only (SPA)
-                - 1:11 min
+  - Terms to be used and we should know in Routing:
+  -  useRouteError
+  -  createBrowserRouter
+  -  RouterProvider
+  -  Link instead of a tag - does not reload the page so very fast
+  -  children route
+  -  Outlet - basically creates a tunnel and push children component according to route
+  - There are two types of routing
+        - server side routing - it do a network call and brings the page which was done using a tag
+        - client side routing - all the pages came at once only (SPA)
