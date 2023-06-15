@@ -109,4 +109,27 @@ This is 2nd day of react basics to adavance
   # Class based Components
   - Why we use super(props) in class based component?
   -When we update the state variable by using setState then only the state variable that is updated that only be changed not whole set of state variable declared.
-  -48 min
+  - Loading and mounting are the same things
+  - when js engine see that there is class based component then it instanciate the class
+  - first constructor is called then render is called.
+  - Parent constructor > Parent render > Child constructor > child render
+        About.js:4-------------Parent constructor
+        About.js:16 -----------Parent render
+        UserClass.js:6 -------child constructor
+        UserClass.js:19 ------child render
+        UserClass.js:15 ------child  componentDidMount called
+        About.js:13 ------------Parent componentDidMount called
+  - API calls are made using componentDidMount- but why - because it is called after constructer then render then it is called.
+  - so we want to first render the page then make the API calls then fill the data into the components thats why we use componentDidMount to do API calls.
+  - Refer this link to get how react lifecycle works - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+  - If reat has 2 chilc component under 1 parent class then order will be
+  - Parent constructor
+  - Parent render
+  - First child constructor
+  - First child render
+  - Second child constructor
+  - Second child render
+  - First child componentDidMount
+  - Second child componentDidMount
+  - Parent componentDidMount
+  - 1:32 
