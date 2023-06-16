@@ -132,4 +132,24 @@ This is 2nd day of react basics to adavance
   - First child componentDidMount
   - Second child componentDidMount
   - Parent componentDidMount
-  - 1:32 
+  - 
+
+  /**
+ * ---MOUNTING
+ * 
+ * 
+ * Constructor(with dummy values)
+ * Render( with dummy values)
+ *      <HTML Dummy>
+ * Component Did Mount
+ *      <API Call>
+ *      <this.setState --> state variable is updated
+ * 
+ * ---UPDATE PHASE----
+ * 
+ *      render( API data)
+ *      <HTML> with new data
+ *
+ * componentDidUpdate 
+ * compoent will unmount - it will be called when we will switch to different route
+ */
