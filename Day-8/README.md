@@ -135,6 +135,7 @@ This is 2nd day of react basics to adavance
   - 
 
   /**
+  --------------CLASS BASED COMPONENT LIFECYCLE------------------
  * ---MOUNTING
  * 
  * 
