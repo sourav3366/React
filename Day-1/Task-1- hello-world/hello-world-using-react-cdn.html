@@ -9,15 +9,22 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- This is the core file of react -->
+    <!-- After importing react go to console and write React and ReactDom then u will get it there and
+       now my browser will understand React and its function which earlier was not knowing what is react . 
+       It was only understanding js as it has js engine inbuilt in it. -->
+
+       <!-- This is the core file of react -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     
-    <!-- This is react library which is useful for DOM operation -->
+    <!-- This is react library which is useful for DOM operation or this is the react dom which we need to modify the DOM.
+    But why not clubbed both files together. Because react not only works in web it also works on mobile--react native -->
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
     <script>
         const heading = React.createElement('h1', {}, 'hello world from react');
 
+
+        // whatever we will do , we will do inside the root and it will be doing the dom manipulation
         const root= ReactDOM.createRoot(document.getElementById('root'));
         root.render(heading)
     </script>

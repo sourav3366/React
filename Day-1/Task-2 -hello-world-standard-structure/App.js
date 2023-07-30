@@ -1,9 +1,10 @@
 {
     /* <div id='parent'>
-      <div id='child'>
-          <h1> I'm h1 tag</h1>
-      </div>
-  </div> */
+            <div id='child'>
+                <h1> I'm h1 tag</h1>
+                <h2> I'm h2 tag</h2>
+            </div>
+      </div> */
   }
   
   const parent = React.createElement(
@@ -22,8 +23,6 @@
   // It will return the javascript object
   console.log(parent)
   
-  // ReactElement(object) => HTML (Browser Understands)
-  
   // const heading = React.createElement(
   //   "h1",
   //   { id: "heading" },
@@ -34,5 +33,6 @@
   
   const root = ReactDOM.createRoot(document.getElementById("root"));
   
-  // This will convert js object to h1 tag
-  root.render(parent);
+  // This will convert js object to h1 tag and put it inside the root element that we created earlier.
+  // ReactElement(object) => HTML (Browser Understands)
+  root.render(parent); 
